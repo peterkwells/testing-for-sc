@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Blog
-subtitle: 部落格
+title: Sycamore Collective
 pagination:
   data: collections.posts
   size: 10
@@ -18,7 +17,7 @@ pagination:
   </p>
   <em>{{ post.date | postDate }}</em>
   <p class="mt-4">{{ post.data.post_excerpt }}...</p>
-  
+
   <div class="flex justify-between items-center mt-4">
     <div class="flex-1 pr-4">
       {% for tag in post.data.tags %}
